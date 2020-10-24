@@ -1,3 +1,15 @@
+// Fonction Fléchés
+
+function whatTimeIsIt() {
+  return Date.now()
+}
+
+const whatTimeIsIt = () => {
+  return Date.now()
+}
+
+const whatTimeIsIt = () => Date.now()
+
 // Conditions
 
 // Les condition à remplir pour les if
