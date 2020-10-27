@@ -93,6 +93,9 @@ function isItTheWeekend(day) {
 
 // Les opérateur logiques.
 
+// && <= ET
+// || <= OU
+
 function isBetween(min, max, number) {
   if(number >= min && number <= max) {
     return `${number} est dans l'interval (${min},${max})`
@@ -101,5 +104,15 @@ function isBetween(min, max, number) {
   }
 }
 
-console.log(isBetween(0, 200, 5))
-console.log(isBetween(0, 200, 652))
+// console.log(isBetween(0, 200, 5))
+// console.log(isBetween(0, 200, 652))
+
+function factorOfTwoOrThree(number) {
+  if(number % 2 === 0 && number % 3 === 0) {
+    return true
+  }
+  return false
+}
+
+// console.log(factorOfTwoOrThree(18))
+// console.log(factorOfTwoOrThree(10))

@@ -87,6 +87,8 @@ function isItTheWeekend(day) {
 // console.log(isItTheWeekend('Saturday'))
 // console.log(isItTheWeekend('Sunday'))
 // Les opérateur logiques.
+// && <= ET
+// || <= OU
 
 
 function isBetween(min, max, number) {
@@ -95,7 +97,15 @@ function isBetween(min, max, number) {
   } else {
     return "".concat(number, " n'est pas dans l'interval (").concat(min, ",").concat(max, ")");
   }
-}
+} // console.log(isBetween(0, 200, 5))
+// console.log(isBetween(0, 200, 652))
 
-console.log(isBetween(0, 200, 5));
-console.log(isBetween(0, 200, 652));
+
+function factorOfTwoOrThree(number) {
+  if (number % 2 === 0 && number % 3 === 0) {
+    return true;
+  }
+
+  return false;
+} // console.log(factorOfTwoOrThree(18))
+// console.log(factorOfTwoOrThree(10))
