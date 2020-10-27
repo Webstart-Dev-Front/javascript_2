@@ -44,6 +44,17 @@ function containsSomething(value) {
   return 'This value is undefined or null'
 }
 
+// Les confition en ternaire !
+
+// function containsSomething(value) {
+//   return value ? 'This value contains something' : 'This value is undefined or null'
+// }
+
+// function isGreater(a, b) {
+//   return a > b ? `${a} est superieur à ${b}` : `${b} est superieur à ${a}`
+// }
+
+
 
 // console.log(containsSomething(0))
 // console.log(containsSomething(''))
